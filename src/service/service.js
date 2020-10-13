@@ -1,4 +1,6 @@
 import { httpClient } from "./index";
+
+//Funcion para consultar los productos7
 export const listItems = (search) => {
     return new Promise(async (resolve,reject) => {
         httpClient.get(`items?q=${search}`)
@@ -11,6 +13,8 @@ export const listItems = (search) => {
         });
     })
 }
+
+//Funcion para consultar un item por medio de su id
 export const getItem = (id) => {
     return new Promise(async (resolve,reject) => {
         httpClient.get(`items/${id}`)

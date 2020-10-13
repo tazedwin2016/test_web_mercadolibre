@@ -4,6 +4,7 @@ import globalContext from '../../stateGlobal/globalContext';
 import "./style.scss";
 
 const Bienvenido = () => {
+    //Cargarmos el globalContex
     const { dispatch } = useContext(globalContext);
     useEffect(()=>{
         //Reseteamos el array de caterogias para que no se muestre el breadcrumb
