@@ -1,0 +1,15 @@
+$primary: #FFE600;
+$black: #333333;
+$gray-1: #666666;
+$gray-2: #999999;
+$gray-3: #EEEEEE;
+$color-btn: #3483FA;
+
+:export {
+  primary: $primary;
+  black: $black;
+  gray-1: $gray-1;
+  gray-2: $gray-2;
+  gray-3: $gray-3;
+  color-btn: $color-btn;
+}

@@ -1,0 +1,44 @@
+@import '../../App.scss';
+
+.resultadoDeLabusqueda {
+    width: 100%;
+}
+
+.item{
+    margin: 16px;
+    .imgItem{
+        margin: 0px;
+        width: 180px;
+        height: 180px;
+        border-radius: 4px;
+    }
+    .infoItem{
+        margin-left: 16px;
+    }
+    .priceItem{
+        margin:0px;
+        font-size: 24px;
+        display: block;
+        color: $black;
+    }
+    .icoFree_shipping{
+        margin-left: 16px;
+    }
+    .titleItem{
+        margin-top: 32px;
+        font-size: 18px;
+        color: $black;
+    }
+    .cityItem {
+        color: $gray-2;
+        font-size: 12px;
+        align-self: center;
+    }
+    .link {
+        text-decoration:none;
+    }
+}
+.divider{
+    margin: 0px 16px 0px 16px;
+    color: $gray-3;
+}

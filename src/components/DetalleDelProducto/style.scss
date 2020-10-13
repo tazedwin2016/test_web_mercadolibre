@@ -1,0 +1,57 @@
+@import '../../App.scss';
+
+.resultadoDeLabusqueda {
+    width: 100%;
+}
+
+.breadcrumb {
+    margin: 16px 0 16px 0;
+    font-size: 14px; 
+    padding: 0px;
+    color: $gray-2;
+}
+
+.item{
+    margin: 16px;
+    .imgDetalle{
+        width: 680px;
+    }
+    .textVendidos{
+        font-size: 14px;
+        margin-top: 32px;
+        color: $gray-1;
+    }
+    .textTitle{
+        font-size: 24px;
+        margin: 16px 0 0 0;
+        color: $black;
+    }
+    .textPrice{
+        font-size: 46px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+        color: $black;
+    }
+    .btnComprar{
+        background: $color-btn;
+        color: #fff;
+        width: 100%;
+        margin-right: 34px;
+    }
+}
+.divider{
+    margin: 0px 16px 0px 16px;
+    color: $gray-3;
+}
+
+.containerDescription{
+    margin-left: 32px;
+}
+.titleDescripcionProducto{
+    font-size: 28px;
+}
+.textDescripcionProducto{
+    font-size: 16px;
+    color: $gray-2;
+    text-align: justify;
+}
